@@ -1,0 +1,12 @@
+basin,mapped_area_km2,loss_km2,gain_km2,net_change_km2,loss_pct_of_mapped_area
+Terrebonne,7825.74,1312.32,35.14,-1277.18,16.77
+Barataria,7110.60,1134.00,24.64,-1109.36,15.95
+Calcasieu/Sabine,2757.45,510.38,32.22,-478.16,18.51
+Pontchartrain,11013.28,485.71,32.40,-453.31,4.41
+Mermentau,3493.16,443.33,21.99,-421.33,12.69
+Breton Sound,2736.49,441.28,23.53,-417.75,16.13
+Mississippi River Delta,2108.85,421.59,70.05,-351.54,19.99
+Teche/Vermilion,3079.34,164.53,14.30,-150.23,5.34
+Atchafalaya,1509.06,51.57,65.27,13.70,3.42
+Pearl,121.54,10.37,1.04,-9.34,8.54
+All coastal basins,41755.51,4975.08,320.59,-4654.50,11.91

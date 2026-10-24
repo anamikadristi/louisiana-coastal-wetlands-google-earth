@@ -1,0 +1,8 @@
+KMZ: louisiana_coastal_wetlands.kmz, 1.33 MB, 35 entries
+[pass] doc.kml parsed by lxml, root element kml
+[pass] doc.kml is valid against OGC KML 2.2 + Google gx 2.2 XSD
+[pass] 138 point placemarks, 0 outside the study box
+[pass] 10 basin polygon parts
+[pass] 34 local image references (33 balloon charts, ground overlay), missing: []
+[pass] 1 gx:Tour, 22 gx:FlyTo, 38 balloon updates, all targets exist: True
+RESULT: PASS

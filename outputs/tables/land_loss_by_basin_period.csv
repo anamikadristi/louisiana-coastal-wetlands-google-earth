@@ -1,0 +1,191 @@
+basin,period,loss_km2,gain_km2
+Calcasieu/Sabine,1932-1956,17.332,5.168
+Calcasieu/Sabine,1956-1973,166.733,3.609
+Calcasieu/Sabine,1973-1975,39.972,0.387
+Calcasieu/Sabine,1975-1977,27.900,0.681
+Calcasieu/Sabine,1977-1985,18.683,1.907
+Calcasieu/Sabine,1985-1988,11.070,0.476
+Calcasieu/Sabine,1988-1990,6.583,0.515
+Calcasieu/Sabine,1990-1995,11.806,1.482
+Calcasieu/Sabine,1995-1998,12.956,0.526
+Calcasieu/Sabine,1998-1999,9.286,0.685
+Calcasieu/Sabine,1999-2002,5.288,0.686
+Calcasieu/Sabine,2002-2004,2.877,2.083
+Calcasieu/Sabine,2004-2006,48.688,1.019
+Calcasieu/Sabine,2006-2008,49.042,1.210
+Calcasieu/Sabine,2008-2009,10.551,1.458
+Calcasieu/Sabine,2009-2010,3.010,1.543
+Calcasieu/Sabine,2010-2013,48.694,6.820
+Calcasieu/Sabine,2013-2014,3.410,1.030
+Calcasieu/Sabine,2014-2015 new,16.500,0.934
+Mermentau,1932-1956,47.041,4.388
+Mermentau,1956-1973,61.825,1.490
+Mermentau,1973-1975,16.649,0.313
+Mermentau,1975-1977,21.066,0.249
+Mermentau,1977-1985,23.482,0.752
+Mermentau,1985-1988,13.979,0.361
+Mermentau,1988-1990,11.433,1.337
+Mermentau,1990-1995,11.617,3.005
+Mermentau,1995-1998,10.663,1.804
+Mermentau,1998-1999,6.911,0.506
+Mermentau,1999-2002,7.359,0.621
+Mermentau,2002-2004,4.298,0.698
+Mermentau,2004-2006,39.444,0.567
+Mermentau,2006-2008,9.941,0.416
+Mermentau,2008-2009,5.021,0.684
+Mermentau,2009-2010,3.556,1.221
+Mermentau,2010-2013,42.356,2.928
+Mermentau,2013-2014,20.388,0.217
+Mermentau,2014-2015 new,86.299,0.437
+Teche/Vermilion,1932-1956,37.108,4.354
+Teche/Vermilion,1956-1973,21.293,0.898
+Teche/Vermilion,1973-1975,10.431,0.014
+Teche/Vermilion,1975-1977,9.200,0.099
+Teche/Vermilion,1977-1985,6.687,0.354
+Teche/Vermilion,1985-1988,6.249,0.153
+Teche/Vermilion,1988-1990,5.544,0.141
+Teche/Vermilion,1990-1995,5.062,0.452
+Teche/Vermilion,1995-1998,5.571,0.325
+Teche/Vermilion,1998-1999,5.742,0.302
+Teche/Vermilion,1999-2002,3.202,0.168
+Teche/Vermilion,2002-2004,4.851,0.402
+Teche/Vermilion,2004-2006,6.664,0.619
+Teche/Vermilion,2006-2008,7.045,0.581
+Teche/Vermilion,2008-2009,4.840,1.426
+Teche/Vermilion,2009-2010,1.888,0.578
+Teche/Vermilion,2010-2013,13.363,2.739
+Teche/Vermilion,2013-2014,8.085,0.028
+Teche/Vermilion,2014-2015 new,1.708,0.671
+Atchafalaya,1932-1956,11.689,2.151
+Atchafalaya,1956-1973,4.271,2.786
+Atchafalaya,1973-1975,3.895,1.595
+Atchafalaya,1975-1977,1.636,0.806
+Atchafalaya,1977-1985,1.231,4.527
+Atchafalaya,1985-1988,1.470,2.945
+Atchafalaya,1988-1990,1.888,1.524
+Atchafalaya,1990-1995,1.877,6.382
+Atchafalaya,1995-1998,1.104,1.946
+Atchafalaya,1998-1999,0.621,12.287
+Atchafalaya,1999-2002,0.455,1.731
+Atchafalaya,2002-2004,0.386,2.842
+Atchafalaya,2004-2006,0.489,2.376
+Atchafalaya,2006-2008,1.026,3.630
+Atchafalaya,2008-2009,0.838,6.174
+Atchafalaya,2009-2010,0.455,3.036
+Atchafalaya,2010-2013,7.956,4.090
+Atchafalaya,2013-2014,7.723,0.211
+Atchafalaya,2014-2015 new,2.565,4.232
+Terrebonne,1932-1956,196.719,8.352
+Terrebonne,1956-1973,120.494,0.522
+Terrebonne,1973-1975,117.222,0.686
+Terrebonne,1975-1977,124.138,0.799
+Terrebonne,1977-1985,87.571,1.292
+Terrebonne,1985-1988,51.085,0.678
+Terrebonne,1988-1990,61.781,0.570
+Terrebonne,1990-1995,68.126,0.769
+Terrebonne,1995-1998,47.586,0.933
+Terrebonne,1998-1999,47.918,1.878
+Terrebonne,1999-2002,25.217,0.886
+Terrebonne,2002-2004,19.194,0.719
+Terrebonne,2004-2006,36.404,2.205
+Terrebonne,2006-2008,45.895,1.370
+Terrebonne,2008-2009,46.518,2.694
+Terrebonne,2009-2010,17.249,1.528
+Terrebonne,2010-2013,129.564,6.505
+Terrebonne,2013-2014,26.851,0.770
+Terrebonne,2014-2015 new,42.789,1.989
+Barataria,1932-1956,146.515,3.138
+Barataria,1956-1973,179.507,0.315
+Barataria,1973-1975,161.660,0.138
+Barataria,1975-1977,67.343,1.192
+Barataria,1977-1985,107.615,0.655
+Barataria,1985-1988,37.973,0.139
+Barataria,1988-1990,59.189,0.238
+Barataria,1990-1995,58.286,0.415
+Barataria,1995-1998,32.782,0.796
+Barataria,1998-1999,37.263,0.275
+Barataria,1999-2002,18.702,0.505
+Barataria,2002-2004,18.620,0.833
+Barataria,2004-2006,26.732,1.812
+Barataria,2006-2008,31.093,1.251
+Barataria,2008-2009,30.888,2.330
+Barataria,2009-2010,10.862,2.140
+Barataria,2010-2013,87.344,6.372
+Barataria,2013-2014,5.838,0.730
+Barataria,2014-2015 new,15.785,1.364
+Mississippi River Delta,1932-1956,86.972,6.214
+Mississippi River Delta,1956-1973,151.870,1.205
+Mississippi River Delta,1973-1975,24.258,2.452
+Mississippi River Delta,1975-1977,18.848,5.972
+Mississippi River Delta,1977-1985,11.467,6.393
+Mississippi River Delta,1985-1988,5.475,2.756
+Mississippi River Delta,1988-1990,10.577,2.709
+Mississippi River Delta,1990-1995,9.097,1.800
+Mississippi River Delta,1995-1998,4.061,2.281
+Mississippi River Delta,1998-1999,2.396,4.447
+Mississippi River Delta,1999-2002,2.083,2.515
+Mississippi River Delta,2002-2004,8.604,1.652
+Mississippi River Delta,2004-2006,23.689,3.187
+Mississippi River Delta,2006-2008,1.813,4.897
+Mississippi River Delta,2008-2009,1.280,3.840
+Mississippi River Delta,2009-2010,1.505,5.403
+Mississippi River Delta,2010-2013,44.406,8.992
+Mississippi River Delta,2013-2014,2.676,2.205
+Mississippi River Delta,2014-2015 new,10.512,1.129
+Breton Sound,1932-1956,80.760,3.672
+Breton Sound,1956-1973,28.944,0.553
+Breton Sound,1973-1975,24.798,0.040
+Breton Sound,1975-1977,21.826,0.343
+Breton Sound,1977-1985,18.600,0.537
+Breton Sound,1985-1988,11.677,0.187
+Breton Sound,1988-1990,17.541,0.545
+Breton Sound,1990-1995,18.965,0.406
+Breton Sound,1995-1998,12.627,0.962
+Breton Sound,1998-1999,13.282,0.638
+Breton Sound,1999-2002,7.871,0.550
+Breton Sound,2002-2004,11.490,0.712
+Breton Sound,2004-2006,64.321,1.416
+Breton Sound,2006-2008,25.710,1.294
+Breton Sound,2008-2009,16.555,2.525
+Breton Sound,2009-2010,5.736,1.574
+Breton Sound,2010-2013,48.806,5.974
+Breton Sound,2013-2014,3.507,0.593
+Breton Sound,2014-2015 new,8.265,1.013
+Pontchartrain,1932-1956,86.210,4.158
+Pontchartrain,1956-1973,82.373,4.069
+Pontchartrain,1973-1975,31.091,1.221
+Pontchartrain,1975-1977,29.633,0.452
+Pontchartrain,1977-1985,22.515,0.795
+Pontchartrain,1985-1988,14.124,0.446
+Pontchartrain,1988-1990,20.447,0.646
+Pontchartrain,1990-1995,22.294,0.584
+Pontchartrain,1995-1998,14.270,0.442
+Pontchartrain,1998-1999,12.323,0.230
+Pontchartrain,1999-2002,7.605,0.364
+Pontchartrain,2002-2004,11.136,0.753
+Pontchartrain,2004-2006,26.090,1.544
+Pontchartrain,2006-2008,13.935,1.230
+Pontchartrain,2008-2009,17.848,2.277
+Pontchartrain,2009-2010,6.485,1.765
+Pontchartrain,2010-2013,51.290,8.817
+Pontchartrain,2013-2014,5.749,1.428
+Pontchartrain,2014-2015 new,10.287,1.178
+Pearl,1932-1956,3.195,0.351
+Pearl,1956-1973,0.824,0.015
+Pearl,1973-1975,0.340,0.019
+Pearl,1975-1977,0.397,0.010
+Pearl,1977-1985,0.141,0.008
+Pearl,1985-1988,0.242,0.001
+Pearl,1988-1990,0.194,0.001
+Pearl,1990-1995,0.399,0.003
+Pearl,1995-1998,0.175,0.019
+Pearl,1998-1999,0.194,0.000
+Pearl,1999-2002,0.077,0.022
+Pearl,2002-2004,0.152,0.005
+Pearl,2004-2006,1.544,0.022
+Pearl,2006-2008,0.367,0.043
+Pearl,2008-2009,0.346,0.051
+Pearl,2009-2010,0.072,0.217
+Pearl,2010-2013,1.465,0.134
+Pearl,2013-2014,0.068,0.029
+Pearl,2014-2015 new,0.183,0.089

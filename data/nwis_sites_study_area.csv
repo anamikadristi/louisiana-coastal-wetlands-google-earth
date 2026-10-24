@@ -1,0 +1,106 @@
+site_no,station_nm,site_tp_cd,lat,lon,iv_begin,iv_end,gage_height,discharge,spec_cond,salinity,water_temp,wl_navd88,basin
+02492100,Pearl River Navigation Canal Lock and Dam No. 2,ST,30.59333333,-89.8644444,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+02492110,"EAST PEARL RIVER AB WILSON SL AT WALKIAH BLUFF, MS",ST,30.57166667,-89.8061111,2007-10-01,2022-03-09,1,1,0,0,0,0,outside coastal basins
+02492111,"WILSON SLOUGH NEAR WALKIAH BLUFF, MS",ST,30.57027778,-89.8111111,2007-10-01,2022-03-09,0,1,0,0,0,0,outside coastal basins
+02492511,"East Pearl River at I-59 near Nicholson, MS",ST,30.4625,-89.695,2007-10-24,2026-10-23,1,0,0,0,0,0,outside coastal basins
+02492519,Pearl River Navigation Canal Lock and Dam No. 1,ST,30.45638889,-89.7797222,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+02492600,"Pearl River at Pearl River, LA",ST,30.385193,-89.7367304,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+02492700,"Pearl River at I-10 near Slidell, LA",ST,30.29788889,-89.7022306,2016-10-04,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07374000,"Mississippi River at Baton Rouge, LA",ST,30.44566667,-91.1915556,2004-03-17,2026-10-23,1,1,1,1,1,0,outside coastal basins
+073745235,"Bayou Dupre Sector Gate near Violet, LA",ST,29.93519444,-89.8365833,2017-03-08,2026-10-23,1,0,0,0,0,0,Pontchartrain
+073745245,"Caernarvon Canal Sector Gate at Caernarvon, La",ST,29.85888889,-89.9069444,2017-01-09,2026-10-23,1,0,0,0,0,0,Breton Sound
+07374525,"Mississippi River at Belle Chasse, LA",ST,29.85715084,-89.977847,2008-10-29,2026-10-23,1,1,0,0,0,0,Barataria
+073745253,"Reggio Canal near Wills Point, LA",ST-CA,29.78416667,-89.9375,2007-10-01,2026-10-23,1,0,1,1,1,0,Breton Sound
+073745257,Crooked B. NW of L. Cuatro Caballo near Delacroix,ES,29.71894017,-89.72408865,2007-10-01,2026-10-23,1,0,1,1,1,0,Breton Sound
+073745258,"Cow Bayou at American Bay nr Pointe-A-La-Hache, LA",ES,29.57076989,-89.7039524,2007-10-01,2026-03-18,1,0,1,1,1,0,Breton Sound
+07374527,"Northeast Bay Gardene near Point-A-LA-Hache, LA",ES,29.58600378,-89.6060434,2007-10-01,2026-10-23,1,0,1,1,1,0,Breton Sound
+07374581,"Bayou Liberty near Slidell,LA",ST,30.30130578,-89.83062149,2007-10-17,2026-10-23,1,0,0,0,0,0,Pontchartrain
+07375050,"Tchefuncte River near Covington, LA",ST,30.4941111,-90.1702222,2007-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07375105,Bogue Falaya River near Camp Covington,ST,30.55638889,-90.1461111,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07375170,"Bogue Falaya at Covington, LA",ST,30.49963635,-90.0845216,2016-03-03,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07375175,"Bogue Falaya River at Boston St. at Covington, LA",ST,30.47638889,-90.0894444,2007-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07375222,"Abita River north of Abita Springs, LA",ST,30.48213676,-90.0389644,2016-03-02,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07375230,"Tchefuncte River at Madisonville, LA",ST,30.4040829,-90.1548009,2007-10-01,2026-10-23,1,1,0,0,0,0,Pontchartrain
+07375500,"Tangipahoa River at Robert, LA",ST,30.50658047,-90.3617524,1995-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07375650,"Tangipahoa River near Ponchatoula, LA",ST,30.44369444,-90.3345833,2013-03-28,2026-10-23,1,1,0,0,0,0,Pontchartrain
+07376000,"Tickfaw River at Holden, LA",ST,30.5038016,-90.6773163,1995-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07376300,"Tickfaw River Near Springfield, La.",ST,30.37655556,-90.5511111,2021-08-25,2026-08-21,1,1,0,0,0,0,Pontchartrain
+07376500,"Natalbany River at Baptist, LA",ST,30.50435795,-90.545924,1995-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07377300,"Amite River at Magnolia, LA",ST,30.5349106,-90.9806579,2007-10-15,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07377754,"Comite River near Baker, LA",ST,30.596297,-91.094272,2007-10-01,2026-07-24,1,0,0,0,0,0,outside coastal basins
+07377760,"Comite River at Comite Dr near Baton Rouge, LA",ST,30.55827126,-91.0982722,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07377870,"Comite River at Hooper Road near Baton Rouge, LA",ST,30.530744,-91.093717,2007-10-23,2026-07-24,1,0,0,0,0,0,outside coastal basins
+07378000,"Comite River near Comite, LA",ST,30.512689,-91.0737158,1995-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07378008,"Hurricane Creek at Baton Rouge, LA",ST,30.48213429,-91.1281616,2017-11-30,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378050,"Comite R. at Greenwell Spg Rd near Baton Rouge, LA",ST,30.50574466,-91.0401038,2007-12-21,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378075,"Beaver Bayou at Denham Road nr Baton Rouge, LA",ST,30.58768705,-91.0248259,2017-11-14,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378083,"Beaver Bayou at Hooper Road near Baton Rouge, LA",ST,30.56102103,-91.0209368,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378100,"Beaver Bayou at Wax Rd near Baton Rouge, LA",ST,30.5429659,-91.020659,2007-10-09,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378500,"Amite River near Denham Springs, LA",ST,30.464079,-90.99038,1995-10-01,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07378650,"Jones Cr. at Old Hammond Hwy near Baton Rouge, LA",ST,30.4407463,-91.044548,2007-10-18,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378722,"Claycut Bayou at Antioch Rd near Baton Rouge, LA",ST,30.38685874,-91.0073244,2008-02-02,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378745,"Alligator Bayou near Kleinpeter, LA",ST,30.32125,-91.0207222,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378746,"Bayou Manchac at Alligator B. near Kleinpeter, LA",ST,30.32138889,-91.0209444,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378748,"Bluff Swamp near Kleinpeter, LA",ST,30.323527,-91.0181576,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07378810,"Bayou Fountain at Bluebonnet Blvd near  B.R., LA",ST,30.35852615,-91.1081603,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07379000,"Ward Creek at Government St at Baton Rouge, LA",ST,30.44446855,-91.1431618,2007-12-15,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07379050,"Ward Creek at Essen Lane near Baton Rouge, LA",ST,30.4049139,-91.1034382,2007-10-17,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07379075,Old Ward Crk Div. at Highland Rd. nr Baton Rouge,ST,30.35519288,-91.0151022,2017-11-30,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07379100,"North Branch Ward Creek at Baton Rouge, LA",ST,30.41796914,-91.0914935,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07379503,CORPORATION C.AT E.ROOSEVELT ST. AT B. R. LA.,ST,30.421858,-91.1767736,2008-03-09,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07379960,"Dawson Cr. at Bluebonnet Blvd near Baton Rouge, LA",ST,30.38241445,-91.0942712,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07380101,"Bayou Manchac near Little Prairie, LA",ST,30.34047129,-90.9173216,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07380102,"Welsh Gully at J. Broussard Rd nr Prairieville, LA",ST,30.3368601,-90.9689897,2007-10-07,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07380106,"Muddy Creek at Hwy 42 near Oak Grove, LA",ST,30.32055556,-90.9541667,2022-03-17,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07380120,"Amite River at Port Vincent, LA",ST,30.3326939,-90.8520419,1996-03-07,2026-10-23,1,1,0,0,0,0,Pontchartrain
+07380126,"Henderson Bayou near Port Vincent, LA",ST,30.2974416,-90.8837198,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07380127,"Henderson Bayou Pump Station near Port Vincent, LA",ST,30.31825,-90.8598611,2015-02-26,2026-10-23,1,0,0,0,0,0,Pontchartrain
+07380200,"Amite River near French Settlement, LA",ST,30.2754733,-90.7792616,2007-10-01,2026-10-23,1,0,0,0,0,0,Pontchartrain
+07380210,"Amite River Diversion south of Whitehall, LA",ST,30.2268611,-90.6880556,2022-05-31,2026-10-23,1,1,0,0,0,0,Pontchartrain
+07380212,"Airline Canal at Blind River near Gramercy, LA",ST-CA,30.10158889,-90.7364889,2020-01-30,2026-10-23,1,0,0,0,0,0,Pontchartrain
+07380215,"Amite River at Hwy 22 near Maurepas, LA",ST,30.30769444,-90.6087222,2007-10-01,2026-10-23,1,0,1,0,1,0,Pontchartrain
+073802220,"Panama Canal at Hwy 44 near Gonzales, LA",ST,30.17077864,-90.9187206,2007-12-20,2026-10-23,1,0,0,0,0,0,outside coastal basins
+073802225,"Bayou Conway near Sorrento, LA",ST,30.1732786,-90.861219,2007-10-01,2026-10-23,1,0,0,0,0,0,Pontchartrain
+0738022295,"Grand Goudine at Babin Rd Near Duplessis, LA",ST,30.2621648,-90.9634442,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+0738022395,"Black Bayou at Hwy 621 near Prairieville, LA",ST,30.26944444,-90.9169444,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+073802245,"Black Bayou E of Gonzales, LA",ST,30.23741844,-90.8700972,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+073802273,"Bayou Francois at Hwy 61 Near Gonzales, LA",ST,30.2274186,-90.8995425,2007-10-01,2026-10-23,1,0,0,0,0,0,outside coastal basins
+073802280,"New River north of Sorrento, La",ST,30.215194,-90.819906,2018-10-29,2026-10-23,1,1,0,0,0,0,outside coastal basins
+073802282,"New River Canal near Sorrento, LA",ST,30.18936433,-90.7862055,2007-10-01,2026-10-23,1,0,0,0,0,0,Pontchartrain
+073802284,"New River Canal east of Sorrento, LA",ST,30.18925,-90.7812778,2017-04-04,2026-10-23,1,1,0,0,0,0,Pontchartrain
+073802302,"Pass Manchac nr. Lake Maurepas, LA",ST,30.28356667,-90.3978389,2022-05-13,2026-10-23,1,0,0,0,0,0,Pontchartrain
+073802332,Inner Harbor Navigation Canal nr Seabrook bridge,ST,30.03013889,-90.0341667,2017-03-07,2026-10-23,1,0,0,0,0,0,Pontchartrain
+073802339,"GIWW East Storm Surge Barrier at New Orleans, LA",ST,30.01444444,-89.9019444,2017-03-08,2026-10-23,1,0,0,0,0,0,Pontchartrain
+07380238,"Naomi Diversion Canal near Naomi, LA",ST,29.6991111,-89.9888611,2007-10-01,2026-10-23,1,1,0,0,0,0,Barataria
+07380249,"Caminada Pass NW of Grand Isle, LA",ES,29.2313611,-90.0485278,2017-11-01,2026-10-23,1,0,1,1,1,0,Barataria
+07380251,"Barataria Bay N of Grand Isle, LA",LK,29.42272045,-89.9506268,2007-10-01,2021-08-29,1,0,1,1,1,0,Barataria
+073802511,"Barataria Waterway at Mud Lake S of Lafitte, LA",ST,29.4742722,-90.0066056,2020-06-15,2026-10-23,1,0,1,1,1,0,Barataria
+073802512,"Hackberry Bay NW of Grand Isle, LA",ES,29.39858028,-90.0411947,2007-10-01,2026-10-23,1,0,1,1,1,0,Barataria
+073802516,"Barataria Pass at Grand Isle, LA",ST,29.27283333,-89.9468056,2008-10-01,2026-10-23,1,0,1,1,1,0,Barataria
+07380330,"Bayou Perot at Point Legard near Cutoff, LA",ES,29.56577778,-90.16555556,2009-11-25,2026-10-23,1,0,1,1,1,0,Barataria
+07380401,"Bayou Lafourche SW of Donaldsonville, LA",ST,30.09658793,-91.0059332,1996-12-18,2026-10-23,1,1,0,0,0,0,outside coastal basins
+07380500,"Bayou Lafourche at Napoleonville, LA",ST,29.9415,-91.0232222,2014-08-23,2026-10-23,1,0,0,0,0,0,Barataria
+07381000,"Bayou Lafourche at Thibodaux, LA",ST,29.7979854,-90.8225932,1996-10-01,2026-10-23,1,1,0,0,0,0,Barataria
+07381150,"Bayou Lafourche at Lockport, LA",ST,29.64705556,-90.5367778,2007-10-01,2026-10-23,1,0,1,1,1,0,Barataria
+07381235,"GIWW West of Bayou Lafourche at Larose, LA",ST,29.56888889,-90.3852778,2002-10-11,2019-10-24,1,1,1,1,1,0,Terrebonne
+07381324,"Bayou Grand Caillou at Dulac, LA",ST,29.38299869,-90.7153674,2001-10-01,2025-03-12,1,1,0,0,0,0,Terrebonne
+07381349,"Caillou Lake (Sister Lake) SW of Dulac, LA",LK,29.24916667,-90.9211111,2007-10-01,2026-10-23,1,0,1,1,1,0,Terrebonne
+073813498,"Caillou Bay SW of Cocodrie, LA",ES,29.07805556,-90.8713889,2007-10-01,2026-10-23,1,0,1,1,1,0,Terrebonne
+07381350,"Company Canal at Hwy 1 at Lockport, LA",ST,29.64523908,-90.5448205,2007-10-01,2026-10-23,1,0,1,1,1,0,Terrebonne
+07381355,"Company Canal at Salt Barrier near Lockport, LA",ST,29.62733333,-90.5576667,2007-10-01,2026-10-23,1,0,1,1,1,0,Terrebonne
+07381412,INTRACOASTAL WATERWAY NR PORT ALLEN LA,ST,30.4322222,-91.2104722,2021-09-21,2026-08-07,1,0,0,0,0,0,outside coastal basins
+07381452,"Choctaw Bayou at Hwy 404 W of White Castle, LA",ST,30.12633333,-91.2762778,2021-10-20,2026-10-23,1,0,0,0,0,0,outside coastal basins
+07381454,"Belle River at Hwy 70 near Pierre Part, LA",ST,29.9091111,-91.2158333,2010-07-21,2026-10-23,1,1,0,0,0,0,Terrebonne
+07381460,"Bayou Milhomme near Stephensville, LA",ST,29.78025,-91.1669167,2018-06-05,2026-10-23,1,0,0,0,0,0,Terrebonne
+073814675,"Bayou Boeuf at Railroad Bridge at Amelia, LA",ST,29.66833333,-91.0997222,1997-10-01,2024-11-04,1,1,1,1,1,0,Terrebonne
+07381588,"Intracoastal Waterway southwest of Pierre Part, LA",ST,29.92238889,-91.2393611,2022-12-10,2026-09-04,1,1,0,0,0,0,outside coastal basins
+07381600,"Lower Atchafalaya River at Morgan City, LA",ST,29.6928482,-91.2119507,1995-10-01,2026-10-23,1,1,1,1,1,0,outside coastal basins
+291929089562600,"Barataria Bay near Grand Terre Island, LA",LK,29.3247222,-89.9405,2007-10-01,2026-10-23,1,0,1,1,1,0,Barataria
+292800090060000,"Little Lake near Bay Dosgris E of Galliano, LA",LK,29.46666667,-90.1,2007-10-01,2026-10-23,1,0,1,1,1,0,Barataria
+292939089544400,"Wilkinson Bayou cutoff north of Wilkinson Bay, LA",ES,29.49413889,-89.9123056,2019-07-29,2026-10-23,1,1,1,1,1,0,Barataria
+294925089532101,"Delacroix Canal near Caernarvon, LA",ST,29.8236111,-89.8891667,2021-08-19,2026-10-23,1,0,0,0,0,0,Breton Sound
+2951190901217,"L. Cataouatche at Whiskey Canal S of Waggaman, LA",LK,29.85527778,-90.20472222,2007-10-01,2026-10-23,1,0,1,1,1,0,Barataria
+295124089542100,"Caernarvon Outfall Channel at Caernarvon, LA",ST,29.85355556,-89.9076944,2001-01-24,2026-10-23,1,1,1,1,1,0,Breton Sound
+295501090190400,"Davis Pond Freshwater Diversion near Boutte, LA",ST,29.91694444,-90.3177778,2002-12-05,2026-10-23,1,1,1,1,1,0,Barataria
+301200090072400,"L Pontchartrain at Crossover 4 near Mandeville, LA",LK,30.19963889,-90.12275,2016-05-04,2026-10-23,1,0,0,0,0,0,Pontchartrain
+302144090052401,Lake Pontchartrain at Mandeville,LK,30.36251808,-90.09022193,2024-04-02,2026-10-23,1,0,0,0,0,0,Pontchartrain
