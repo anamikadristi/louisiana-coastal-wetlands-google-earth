@@ -183,6 +183,10 @@ louisiana-coastal-wetlands-google-earth/
     kmz/louisiana_coastal_wetlands.kmz
 ```
 
+## Metadata
+
+FGDC CSDGM (FGDC-STD-001-1998) metadata for the CRMS station summary, the station GeoJSON and the KMZ are in [`metadata/`](metadata/), validated against the official FGDC XML Schema and the USGS `mp` parser.
+
 ## Citation and author
 
 Anamika Dristi, Ph.D. (2026). Louisiana coastal wetlands in Google Earth: CRMS salinity, land loss and monitoring stations. Code: MIT License. Contact: anamikadristi@gmail.com

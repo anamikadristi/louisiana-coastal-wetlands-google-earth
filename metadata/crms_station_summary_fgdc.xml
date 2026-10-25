@@ -1,0 +1,1141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Anamika Dristi</origin>
+        <pubdate>20261023</pubdate>
+        <title>CRMS hydrographic station salinity and water-level trend summary for 33 stations around Lake Maurepas and in the Pontchartrain, Barataria and Terrebonne basins, southeast Louisiana, 2006 to 2025</title>
+        <geoform>tabular digital data</geoform>
+        <othercit>GitHub repository louisiana-coastal-wetlands-google-earth, files outputs/tables/crms_station_summary.csv, data/crms_stations_selected.geojson and data/crms_stations_selected.csv</othercit>
+        <onlink>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth</onlink>
+        <onlink>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/outputs/tables/crms_station_summary.csv</onlink>
+        <onlink>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/data/crms_stations_selected.geojson</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Station table and point layer for 33 Coastwide Reference Monitoring System (CRMS) hydrographic stations: 21 stations within 22 km of the center of Lake Maurepas and 4 key sites in each of the Pontchartrain, Barataria and Terrebonne basins. outputs/tables/crms_station_summary.csv (33 rows, 36 columns) gives, for each station, daily mean salinity statistics (mean, median, 10th and 90th percentiles, maximum, percent of days above 2 and 5 ppt), the seasonal cycle (saltiest and freshest month, seasonal range), seasonal Mann-Kendall salinity trends with seasonal Sen slopes for the full record and for 2013 to 2025, a water-level trend on GEOID12B from October 2013, and Benjamini-Hochberg FDR q values. data/crms_stations_selected.geojson (and the matching CSV) holds the station points in WGS 84 with group, basin, parish, vegetation type and record dates. Statistics come from the CPRA CRMS hourly 'adjusted' record reduced to daily means; trend tests use monthly means through December 2025.</abstract>
+      <purpose>Portfolio and research product summarizing salinity intrusion and water-level change at CRMS stations for environmental science, coastal restoration and GIS use, and the source of the station placemarks and balloons in the Google Earth KMZ of the same repository.</purpose>
+      <supplinf>Independent analysis of public data by Anamika Dristi, Ph.D.; it uses none of the author's LSU dissertation data. Code is MIT licensed. The lat and lon columns of crms_station_summary.csv are rounded to 0.01 degree (up to 641 m, median 451 m, from the full-precision positions); use the GeoJSON or data/crms_stations_selected.csv for station positions. Related tables: crms_monthly_climatology.csv, crms_group_trend_summary.csv and crms_hydro_station_inventory.csv in outputs/tables.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20060606</begdate>
+          <enddate>20260827</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition (earliest and latest daily salinity at the 33 stations; summary statistics and trends use data through 2025-12-31)</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-91.233070</westbc>
+        <eastbc>-89.220000</eastbc>
+        <northbc>30.410000</northbc>
+        <southbc>29.120000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>salinity</themekey>
+        <themekey>water level</themekey>
+        <themekey>water temperature</themekey>
+        <themekey>coastal wetlands</themekey>
+        <themekey>saltwater intrusion</themekey>
+        <themekey>monitoring stations</themekey>
+        <themekey>trend analysis</themekey>
+        <themekey>seasonal Mann-Kendall test</themekey>
+        <themekey>Sen slope</themekey>
+        <themekey>time series</themekey>
+        <themekey>Coastwide Reference Monitoring System</themekey>
+        <themekey>CRMS</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Louisiana</placekey>
+        <placekey>Lake Maurepas</placekey>
+        <placekey>Lake Pontchartrain</placekey>
+        <placekey>Barataria Bay</placekey>
+        <placekey>Terrebonne Bay</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>southeast Louisiana</placekey>
+        <placekey>Pontchartrain Basin</placekey>
+        <placekey>Barataria Basin</placekey>
+        <placekey>Terrebonne Basin</placekey>
+        <placekey>Manchac land bridge</placekey>
+        <placekey>Gulf of Mexico coast</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None, beyond citing the author and the data sources (CPRA CRMS and CIMS; USGS). The station statistics describe the published CRMS 'adjusted' record as downloaded on 2026-10-23 and are not an official CPRA product. CRMS data are updated weekly, so later downloads will change the most recent months. Not for regulatory or engineering decisions.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anamika Dristi</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Houston</city>
+          <state>TX</state>
+          <postal>Not provided</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>Not provided (contact by email)</cntvoice>
+        <cntemail>anamikadristi@gmail.com</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Coastal Protection and Restoration Authority of Louisiana, CRMS and CIMS (https://cims.coastal.la.gov).</datacred>
+    <native>Python 3.11 or newer with pandas, geopandas, pymannkendall and awk on macOS. CSV and GeoJSON.</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Statistics describe the CRMS 'adjusted' salinity, temperature and water elevation as published by CPRA; sensor gaps, relocations (several sites moved from -H01 to -H02 in 2013) and servicing were not corrected further, and the accuracy of the CRMS sensors is not restated here. A daily mean needs at least 12 hourly values and a monthly mean at least 15 valid days. The seasonal Mann-Kendall test used does not correct for serial correlation between years, so p values may be too small; the FDR adjustment does not fix that. Trend results depend on the window (full-record trends at Lake Maurepas are driven by high salinity in 2007 to 2012). Water-level trends depend on benchmark ties to NAVD88 and on river stage and storm years and are not sea-level rise rates.</attraccr>
+    </attracc>
+    <logic>One row per station, 33 unique station IDs; column order and names checked against the CSV header. All stations have a full-record trend, a 2013 to 2025 trend and a water-level trend (wl_start 2013-10-01 and wl_geoid GEOID12B at every station). peak_month and low_month are integers 1 to 12. The GeoJSON has 33 Point features whose coordinates equal the lat and lon properties, in OGC CRS84 (longitude, latitude) order. The CSV summary is written with 4 significant digits.</logic>
+    <complete>Covers only the 33 selected stations, not all 436 CRMS hydro stations with salinity. Key sites were picked by a simple rule (evenly along latitude); another rule would give different stations. Trend series end between 2024-11-01 and 2025-12-01 because some records stop before December 2025. Data after 2025-12-31 are used only in the first, last and sal_days fields of the station layer.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Station coordinates are copied from the CPRA CIMS Data Collection Stations layer (projected to WGS 84) and were not checked in the field. The GeoJSON and data/crms_stations_selected.csv keep 5 decimal places; the summary CSV rounds to 0.01 degree, which moves stations by up to 641 m (median 451 m).</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA), CRMS</origin>
+            <pubdate>20261018</pubdate>
+            <title>CRMS continuous hydrographic data, full table export CRMS_Continuous_Hydrographic.zip (hourly adjusted salinity, water temperature and water elevation to NAVD88)</title>
+            <geoform>tabular digital data</geoform>
+            <othercit>1.29 GB zip, 15.0 GB CSV, file dated 18 Oct 2026; downloaded 2026-10-23; 436 hydro stations with salinity, 2,484,522 station-days</othercit>
+            <onlink>https://cims.coastal.la.gov/FullTableExports.aspx</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20060217</begdate>
+              <enddate>20260831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CRMSHydro</srccitea>
+        <srccontr>Hourly records reduced to daily means for the trend and summary statistics.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA), CRMS</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Data Collection Stations (monitoring_stations.gdb)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://cims.coastal.louisiana.gov/viewer/metadata/zips/Data_Collection_Stations.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CIMSStations</srccitea>
+        <srccontr>CRMS hydro station locations and status (441 hydrographic station records).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA), CRMS</origin>
+            <pubdate>Unknown</pubdate>
+            <title>CRMS Sites (crms6298.shp)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://cims.coastal.louisiana.gov/viewer/metadata/zips/CRMS_Sites.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CIMSSites</srccitea>
+        <srccontr>Site vegetation type and parish.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA)</origin>
+            <pubdate>Unknown</pubdate>
+            <title>CWPPRA hydrologic basin boundaries (BasinsCoastal.shp)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://cims.coastal.louisiana.gov/viewer/metadata/zips/Basins.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CWPPRABasins</srccitea>
+        <srccontr>Basin assignment of stations.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Download (scripts/01_download_data.py): public keyless files fetched from CIMS, ScienceBase and USGS Water Services into the raw data folder (not committed).</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <srcused>CIMSStations</srcused>
+        <srcused>CIMSSites</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Daily means (scripts/02_build_crms_daily.py, 02_daily.awk): the 15 GB hourly CSV streamed from the zip and reduced to one row per station and day: mean adjusted salinity (ppt), adjusted water temperature, adjusted water elevation to datum (ft NAVD88), the number of hourly values and the geoid model. Only surface-water hydro stations (IDs ending -H01, -H02) kept; a daily mean needs at least 12 hourly values. Output: data/crms_selected_daily.csv.gz (selected stations).</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Station selection (scripts/03_select_stations.py): CRMS hydro station points (STATION_ID matching CRMSdddd-Hdd) projected to WGS 84 and joined to CWPPRA basins; vegetation type and parish joined from CRMS Sites. Lake Maurepas group = every station within 22 km of 30.255 N, 90.515 W with at least 8 years of record (21 stations). For each of the Pontchartrain, Barataria and Terrebonne basins, 4 key sites outside the Maurepas group picked evenly along latitude from stations with at least 3,650 days of daily salinity and data in 2025. Output: data/crms_stations_selected.csv; outputs/tables/crms_hydro_station_inventory.csv.</procdesc>
+        <srcused>CIMSStations</srcused>
+        <srcused>CIMSSites</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <srcused>CRMSHydro</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Trends and summary (scripts/04_salinity_trends.py): daily values through 2025-12-31 averaged to monthly means (a month needs 15 valid days). Seasonal Mann-Kendall test with seasonal Sen slope (pymannkendall.seasonal_test, period 12) on the full record and on 2013 to 2025; water-level trend only on the longest run of days on one geoid model (GEOID12B from 2013-10-01 at every station). Benjamini-Hochberg false discovery rate q across the 33 stations. Daily salinity percentiles, exceedance shares and the seasonal cycle (mean of monthly means by calendar month) computed per station. Table written with 4 significant digits (pandas float_format %.4g). Output: outputs/tables/crms_station_summary.csv; outputs/tables/crms_monthly_climatology.csv; outputs/tables/crms_group_trend_summary.csv.</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>GeoJSON export (scripts/06_maps.py): the selected station table converted to WGS 84 points from its lat and lon columns and written with the GDAL GeoJSON driver. Output: data/crms_stations_selected.geojson.</procdesc>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>FGDC CSDGM metadata written from the README, the scripts and direct inspection of the CSV and GeoJSON with pandas and geopandas (columns, value ranges, CRS, extent, coordinate rounding).</procdesc>
+        <procdate>20261024</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>33</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00001</latres>
+        <longres>0.00001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>crms_station_summary.csv</enttypl>
+        <enttypd>Salinity and water-level statistics and trends, one row per CRMS station (33 rows).</enttypd>
+        <enttypds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>station</attrlabl>
+        <attrdef>CRMS hydrographic station ID (site ID plus sensor suffix -H01 or -H02).</attrdef>
+        <attrdefs>CPRA CIMS</attrdefs>
+        <attrdomv>
+          <udom>Station IDs of the form CRMSdddd-Hdd</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>group</attrlabl>
+        <attrdef>Analysis group of the station.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Lake Maurepas</edomv>
+            <edomvd>CRMS hydro station within 22 km of the center of Lake Maurepas with at least 8 years of record</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pontchartrain key site</edomv>
+            <edomvd>Key site in the Pontchartrain basin outside the Maurepas group</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Barataria key site</edomv>
+            <edomvd>Key site in the Barataria basin</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Terrebonne key site</edomv>
+            <edomvd>Key site in the Terrebonne basin</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>basin</attrlabl>
+        <attrdef>CWPPRA hydrologic basin containing the station.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Barataria</edomv>
+            <edomvd>Barataria CWPPRA hydrologic basin</edomvd>
+            <edomvds>CPRA BasinsCoastal.shp (UNIT field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pontchartrain</edomv>
+            <edomvd>Pontchartrain CWPPRA hydrologic basin</edomvd>
+            <edomvds>CPRA BasinsCoastal.shp (UNIT field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Terrebonne</edomv>
+            <edomvd>Terrebonne CWPPRA hydrologic basin</edomvd>
+            <edomvds>CPRA BasinsCoastal.shp (UNIT field)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Station latitude, WGS 84, rounded to 4 significant digits (0.01 degree).</attrdef>
+        <attrdefs>CPRA CIMS Data Collection Stations</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>29.12</rdommin>
+            <rdommax>30.41</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lon</attrlabl>
+        <attrdef>Station longitude, WGS 84, rounded to 4 significant digits (0.01 degree).</attrdef>
+        <attrdefs>CPRA CIMS Data Collection Stations</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-91.23</rdommin>
+            <rdommax>-89.22</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>veg_type</attrlabl>
+        <attrdef>CRMS site vegetation type.</attrdef>
+        <attrdefs>CPRA CIMS CRMS Sites</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>FRESH SPIKERUSH</edomv>
+            <edomvd>CRMS site vegetation type 'FRESH SPIKERUSH'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MESOHALINE WIREGRASS</edomv>
+            <edomvd>CRMS site vegetation type 'MESOHALINE WIREGRASS'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OLIGOHALINE BULLTONGUE</edomv>
+            <edomvd>CRMS site vegetation type 'OLIGOHALINE BULLTONGUE'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OLIGOHALINE SPIKERUSH</edomv>
+            <edomvd>CRMS site vegetation type 'OLIGOHALINE SPIKERUSH'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POLYHALINE OYSTERGRASS</edomv>
+            <edomvd>CRMS site vegetation type 'POLYHALINE OYSTERGRASS'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWAMP</edomv>
+            <edomvd>CRMS site vegetation type 'SWAMP'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>days_with_salinity</attrlabl>
+        <attrdef>Number of days with a valid daily mean salinity through 2025-12-31.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3638</rdommin>
+            <rdommax>6791</rdommax>
+            <attrunit>days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sal_mean</attrlabl>
+        <attrdef>Mean of daily mean adjusted salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.08814</rdommin>
+            <rdommax>19.95</rdommax>
+            <attrunit>parts per thousand</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sal_median</attrlabl>
+        <attrdef>Median of daily mean adjusted salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0287</rdommin>
+            <rdommax>20.25</rdommax>
+            <attrunit>parts per thousand</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sal_p10</attrlabl>
+        <attrdef>10th percentile of daily mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.01</rdommin>
+            <rdommax>13.94</rdommax>
+            <attrunit>parts per thousand</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sal_p90</attrlabl>
+        <attrdef>90th percentile of daily mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.1451</rdommin>
+            <rdommax>26.03</rdommax>
+            <attrunit>parts per thousand</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sal_max_daily</attrlabl>
+        <attrdef>Maximum daily mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.4442</rdommin>
+            <rdommax>37.56</rdommax>
+            <attrunit>parts per thousand</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pct_days_gt_2ppt</attrlabl>
+        <attrdef>Percent of days with daily mean salinity above 2 ppt.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pct_days_gt_5ppt</attrlabl>
+        <attrdef>Percent of days with daily mean salinity above 5 ppt.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>peak_month</attrlabl>
+        <attrdef>Calendar month with the highest mean of monthly mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>calendar month (1 = January)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>low_month</attrlabl>
+        <attrdef>Calendar month with the lowest mean of monthly mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>calendar month (1 = January)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>seasonal_range_ppt</attrlabl>
+        <attrdef>Highest minus lowest calendar-month mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.07319</rdommin>
+            <rdommax>12.15</rdommax>
+            <attrunit>parts per thousand</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk_trend</attrlabl>
+        <attrdef>Full-record salinity trend direction. Trend direction from pymannkendall.seasonal_test at alpha 0.05 on the raw p value: 'increasing', 'decreasing' or 'no trend'.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>increasing</edomv>
+            <edomvd>Significant upward trend (p &lt; 0.05)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>decreasing</edomv>
+            <edomvd>Significant downward trend (p &lt; 0.05)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>no trend</edomv>
+            <edomvd>No significant trend (p of 0.05 or more)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk_p</attrlabl>
+        <attrdef>Full-record seasonal Mann-Kendall p value.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0.556</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk_tau</attrlabl>
+        <attrdef>Full-record seasonal Mann-Kendall tau.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.4961</rdommin>
+            <rdommax>0.3053</rdommax>
+            <attrunit>dimensionless</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sen_ppt_per_decade</attrlabl>
+        <attrdef>Full-record seasonal Sen slope of monthly mean salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.89</rdommin>
+            <rdommax>2.513</rdommax>
+            <attrunit>parts per thousand per decade</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_start</attrlabl>
+        <attrdef>First month of the full-record trend series (first day of month).</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <udom>Dates in YYYY-MM-DD format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_end</attrlabl>
+        <attrdef>Last month of the full-record trend series (first day of month).</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <udom>Dates in YYYY-MM-DD format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_n_months</attrlabl>
+        <attrdef>Number of valid monthly means in the full-record trend series.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>126</rdommin>
+            <rdommax>225</rdommax>
+            <attrunit>months</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk13_trend</attrlabl>
+        <attrdef>Salinity trend direction on the common 2013 to 2025 window. Trend direction from pymannkendall.seasonal_test at alpha 0.05 on the raw p value: 'increasing', 'decreasing' or 'no trend'.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>increasing</edomv>
+            <edomvd>Significant upward trend (p &lt; 0.05)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>decreasing</edomv>
+            <edomvd>Significant downward trend (p &lt; 0.05)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>no trend</edomv>
+            <edomvd>No significant trend (p of 0.05 or more)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk13_p</attrlabl>
+        <attrdef>Seasonal Mann-Kendall p value, 2013 to 2025.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.228e-10</rdommin>
+            <rdommax>0.9857</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sen13_ppt_per_decade</attrlabl>
+        <attrdef>Seasonal Sen slope of monthly mean salinity, 2013 to 2025.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.7749</rdommin>
+            <rdommax>3.751</rdommax>
+            <attrunit>parts per thousand per decade</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_trend</attrlabl>
+        <attrdef>Water-level trend direction (monthly mean water elevation, NAVD88, longest single-geoid run). Trend direction from pymannkendall.seasonal_test at alpha 0.05 on the raw p value: 'increasing', 'decreasing' or 'no trend'.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>increasing</edomv>
+            <edomvd>Significant upward trend (p &lt; 0.05)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>decreasing</edomv>
+            <edomvd>Significant downward trend (p &lt; 0.05)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>no trend</edomv>
+            <edomvd>No significant trend (p of 0.05 or more)</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/04_salinity_trends.py)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_p</attrlabl>
+        <attrdef>Water-level seasonal Mann-Kendall p value.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>9.534e-11</rdommin>
+            <rdommax>1</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_sen_mm_per_yr</attrlabl>
+        <attrdef>Water-level seasonal Sen slope (feet per year converted with 304.8 mm per foot).</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.375</rdommin>
+            <rdommax>13.5</rdommax>
+            <attrunit>millimeters per year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_start</attrlabl>
+        <attrdef>First month of the water-level trend series.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <udom>Dates in YYYY-MM-DD format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_end</attrlabl>
+        <attrdef>Last month of the water-level trend series.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <udom>Dates in YYYY-MM-DD format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_geoid</attrlabl>
+        <attrdef>Geoid model of the water-level run used.</attrdef>
+        <attrdefs>CPRA CRMS hydrographic record</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>GEOID12B</edomv>
+            <edomvd>Geoid model reported in the CRMS record</edomvd>
+            <edomvds>CPRA CRMS hydrographic record</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk_q_fdr</attrlabl>
+        <attrdef>Benjamini-Hochberg FDR q of mk_p across the 33 stations.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0.556</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mk13_q_fdr</attrlabl>
+        <attrdef>Benjamini-Hochberg FDR q of mk13_p across the 33 stations.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.065e-08</rdommin>
+            <rdommax>0.9857</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wl_q_fdr</attrlabl>
+        <attrdef>Benjamini-Hochberg FDR q of wl_p across the 33 stations.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/04_salinity_trends.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.146e-09</rdommin>
+            <rdommax>1</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>crms_stations_selected.geojson</enttypl>
+        <enttypd>Selected CRMS hydro stations as WGS 84 points (33 features); data/crms_stations_selected.csv holds the same fields without geometry.</enttypd>
+        <enttypds>Anamika Dristi, this study (scripts/03_select_stations.py)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>station</attrlabl>
+        <attrdef>CRMS hydrographic station ID.</attrdef>
+        <attrdefs>CPRA CIMS Data Collection Stations (STATION_ID)</attrdefs>
+        <attrdomv>
+          <udom>Station IDs of the form CRMSdddd-Hdd</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site</attrlabl>
+        <attrdef>CRMS site ID (first 8 characters of the station ID).</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <udom>Site IDs of the form CRMSdddd</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>group</attrlabl>
+        <attrdef>Analysis group of the station.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Lake Maurepas</edomv>
+            <edomvd>CRMS hydro station within 22 km of the center of Lake Maurepas with at least 8 years of record</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pontchartrain key site</edomv>
+            <edomvd>Key site in the Pontchartrain basin outside the Maurepas group</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Barataria key site</edomv>
+            <edomvd>Key site in the Barataria basin</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Terrebonne key site</edomv>
+            <edomvd>Key site in the Terrebonne basin</edomvd>
+            <edomvds>Anamika Dristi, this study (scripts/03_select_stations.py)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>basin</attrlabl>
+        <attrdef>CWPPRA hydrologic basin containing the station.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Barataria</edomv>
+            <edomvd>Barataria CWPPRA hydrologic basin</edomvd>
+            <edomvds>CPRA BasinsCoastal.shp (UNIT field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pontchartrain</edomv>
+            <edomvd>Pontchartrain CWPPRA hydrologic basin</edomvd>
+            <edomvds>CPRA BasinsCoastal.shp (UNIT field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Terrebonne</edomv>
+            <edomvd>Terrebonne CWPPRA hydrologic basin</edomvd>
+            <edomvds>CPRA BasinsCoastal.shp (UNIT field)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>parish</attrlabl>
+        <attrdef>Louisiana parish of the CRMS site.</attrdef>
+        <attrdefs>CPRA CIMS CRMS Sites (PARISH_NAM)</attrdefs>
+        <attrdomv>
+          <udom>Parish names in upper case</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>veg_type</attrlabl>
+        <attrdef>CRMS site vegetation type.</attrdef>
+        <attrdefs>CPRA CIMS CRMS Sites (VEGTYPE)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>FRESH SPIKERUSH</edomv>
+            <edomvd>CRMS site vegetation type 'FRESH SPIKERUSH'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MESOHALINE WIREGRASS</edomv>
+            <edomvd>CRMS site vegetation type 'MESOHALINE WIREGRASS'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OLIGOHALINE BULLTONGUE</edomv>
+            <edomvd>CRMS site vegetation type 'OLIGOHALINE BULLTONGUE'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OLIGOHALINE SPIKERUSH</edomv>
+            <edomvd>CRMS site vegetation type 'OLIGOHALINE SPIKERUSH'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POLYHALINE OYSTERGRASS</edomv>
+            <edomvd>CRMS site vegetation type 'POLYHALINE OYSTERGRASS'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWAMP</edomv>
+            <edomvd>CRMS site vegetation type 'SWAMP'</edomvd>
+            <edomvds>CPRA CIMS CRMS Sites (VEGTYPE field)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Station latitude, WGS 84.</attrdef>
+        <attrdefs>CPRA CIMS Data Collection Stations</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>29.12359</rdommin>
+            <rdommax>30.40559</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lon</attrlabl>
+        <attrdef>Station longitude, WGS 84.</attrdef>
+        <attrdefs>CPRA CIMS Data Collection Stations</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-91.23307</rdommin>
+            <rdommax>-89.22139</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>dist_maurepas_km</attrlabl>
+        <attrdef>Great-circle (haversine) distance from the station to 30.255 N, 90.515 W.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>9.7471</rdommin>
+            <rdommax>130.08</rdommax>
+            <attrunit>kilometers</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>first</attrlabl>
+        <attrdef>First date with a valid daily mean salinity in the downloaded record.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <udom>Dates in YYYY-MM-DD format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>last</attrlabl>
+        <attrdef>Last date with a valid daily mean salinity in the downloaded record.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <udom>Dates in YYYY-MM-DD format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sal_days</attrlabl>
+        <attrdef>Number of days with a valid daily mean salinity in the downloaded record.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3754</rdommin>
+            <rdommax>6988</rdommax>
+            <attrunit>days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>years_span</attrlabl>
+        <attrdef>Years from first to last date (days divided by 365.25).</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/03_select_stations.py)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>12.361</rdommin>
+            <rdommax>20.104</rdommax>
+            <attrunit>years</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Station status in the CIMS station layer.</attrdef>
+        <attrdefs>CPRA CIMS Data Collection Stations (STATUS)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Active</edomv>
+            <edomvd>Status value reported by CIMS</edomvd>
+            <edomvds>CPRA CIMS Data Collection Stations</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>geometry</attrlabl>
+        <attrdef>Point geometry, longitude and latitude in OGC CRS84.</attrdef>
+        <attrdefs>GDAL GeoJSON driver</attrdefs>
+        <attrdomv>
+          <udom>Point geometry</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Salinity in parts per thousand (CRMS adjusted salinity); water elevation in feet NAVD88 in the CRMS record, reported here as trends in millimeters per year.</eaover>
+      <eadetcit>README.md and scripts/04_salinity_trends.py of the repository; CPRA CIMS (https://cims.coastal.la.gov); Hirsch, R.M., Slack, J.R., Smith, R.A. (1982) Water Resources Research 18(1):107-121.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anamika Dristi</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Houston</city>
+          <state>TX</state>
+          <postal>Not provided</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>Not provided (contact by email)</cntvoice>
+        <cntemail>anamikadristi@gmail.com</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>GitHub repository anamikadristi/louisiana-coastal-wetlands-google-earth, files outputs/tables/crms_station_summary.csv, data/crms_stations_selected.geojson, data/crms_stations_selected.csv</resdesc>
+    <distliab>This dataset is an independent analysis of public data, provided as is, without warranty of any kind. The author is not responsible for any use of these data. Read the attribute accuracy and completeness sections before use.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>Not versioned (comma-separated values with header row, UTF-8)</formvern>
+          <formspec>outputs/tables/crms_station_summary.csv</formspec>
+          <transize>0.010</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/outputs/tables/crms_station_summary.csv</networkr>
+              </networka>
+            </computer>
+            <accinstr>Download the file from the GitHub repository page (no account needed for public repositories).</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GeoJSON</formname>
+          <formvern>2008 (GDAL GeoJSON driver output with an OGC CRS84 crs member)</formvern>
+          <formspec>data/crms_stations_selected.geojson</formspec>
+          <transize>0.015</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/data/crms_stations_selected.geojson</networkr>
+              </networka>
+            </computer>
+            <accinstr>Download the file from the GitHub repository page (no account needed for public repositories).</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>Not versioned (comma-separated values with header row, UTF-8)</formvern>
+          <formspec>data/crms_stations_selected.csv</formspec>
+          <transize>0.005</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/data/crms_stations_selected.csv</networkr>
+              </networka>
+            </computer>
+            <accinstr>Download the file from the GitHub repository page (no account needed for public repositories).</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <techpreq>Any spreadsheet or GIS that reads CSV or GeoJSON (for example QGIS, ArcGIS Pro, GDAL/OGR, Excel).</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20261024</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anamika Dristi</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Houston</city>
+          <state>TX</state>
+          <postal>Not provided</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>Not provided (contact by email)</cntvoice>
+        <cntemail>anamikadristi@gmail.com</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

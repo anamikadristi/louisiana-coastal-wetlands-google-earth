@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Anamika Dristi</origin>
+        <pubdate>20261023</pubdate>
+        <title>Louisiana coastal wetlands Google Earth KMZ: CRMS salinity stations, USGS NWIS sites, CWPPRA basins and persistent land change 1932 to 2016</title>
+        <geoform>vector digital data</geoform>
+        <othercit>GitHub repository louisiana-coastal-wetlands-google-earth, file outputs/kmz/louisiana_coastal_wetlands.kmz</othercit>
+        <onlink>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth</onlink>
+        <onlink>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/outputs/kmz/louisiana_coastal_wetlands.kmz</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Google Earth KMZ (1.33 MB, 35 entries: doc.kml plus 34 images) for southeast Louisiana. It holds 138 point placemarks (33 analysed CRMS hydro stations in four group folders, each with an HTML balloon of salinity statistics and trends and a small salinity chart, and 105 active USGS NWIS sites with their parameters and a link to the USGS page), 10 CWPPRA basin polygons with persistent land loss and gain totals for 1932 to 2016 in their balloons, a ground overlay of USGS SIM 3381 persistent land change for the three study basins (about 90 m display cells, off by default), and a gx:Tour (22 FlyTo steps) through Lake Maurepas and the basin key sites. The KMZ passes XSD validation against OGC KML 2.2 with the Google gx 2.2 extension (outputs/tables/kml_validation_report.txt).</abstract>
+      <purpose>Portfolio product that packages the CRMS station analysis, the basin land change summary and the USGS monitoring network for viewing in Google Earth, QGIS or ArcGIS Pro (KML To Layer).</purpose>
+      <supplinf>Independent analysis of public data by Anamika Dristi, Ph.D. Code is MIT licensed. Google Earth Pro, Google Earth Web and ArcGIS Pro were not run; the KMZ was checked only with a schema parser and structure checks. CRMS placemark positions come from the rounded lat and lon columns of crms_station_summary.csv (0.01 degree; up to 641 m from the station positions in data/crms_stations_selected.geojson). Placemark icons are loaded from maps.google.com when the file is opened. How to open and use it: docs/GOOGLE_EARTH_GUIDE.md.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1932</begdate>
+          <enddate>20261023</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition (land change 1932 to 2016; CRMS statistics 2006 to 2025; NWIS active site list as downloaded 2026-10-23)</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.929318</westbc>
+        <eastbc>-88.735413</eastbc>
+        <northbc>30.596297</northbc>
+        <southbc>28.854357</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+        <themekey>oceans</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>salinity</themekey>
+        <themekey>water level</themekey>
+        <themekey>water temperature</themekey>
+        <themekey>coastal wetlands</themekey>
+        <themekey>saltwater intrusion</themekey>
+        <themekey>monitoring stations</themekey>
+        <themekey>trend analysis</themekey>
+        <themekey>seasonal Mann-Kendall test</themekey>
+        <themekey>Sen slope</themekey>
+        <themekey>time series</themekey>
+        <themekey>Coastwide Reference Monitoring System</themekey>
+        <themekey>CRMS</themekey>
+        <themekey>land loss</themekey>
+        <themekey>land change</themekey>
+        <themekey>Google Earth</themekey>
+        <themekey>KML</themekey>
+        <themekey>KMZ</themekey>
+        <themekey>National Water Information System</themekey>
+        <themekey>CWPPRA basins</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Louisiana</placekey>
+        <placekey>Lake Maurepas</placekey>
+        <placekey>Lake Pontchartrain</placekey>
+        <placekey>Barataria Bay</placekey>
+        <placekey>Terrebonne Bay</placekey>
+        <placekey>Calcasieu Lake</placekey>
+        <placekey>Atchafalaya Bay</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>southeast Louisiana</placekey>
+        <placekey>Pontchartrain Basin</placekey>
+        <placekey>Barataria Basin</placekey>
+        <placekey>Terrebonne Basin</placekey>
+        <placekey>Manchac land bridge</placekey>
+        <placekey>Gulf of Mexico coast</placekey>
+        <placekey>United States</placekey>
+        <placekey>Louisiana coastal zone</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None, beyond citing the author and the data sources (CPRA CRMS and CIMS; USGS). The station statistics describe the published CRMS 'adjusted' record as downloaded on 2026-10-23 and are not an official CPRA product. CRMS data are updated weekly, so later downloads will change the most recent months. Not for regulatory or engineering decisions. USGS states that the SIM 3381 persistent change layer is not meant for rate calculations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anamika Dristi</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Houston</city>
+          <state>TX</state>
+          <postal>Not provided</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>Not provided (contact by email)</cntvoice>
+        <cntemail>anamikadristi@gmail.com</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>CPRA CRMS and CIMS; Couvillion, B.R. and others (2017) USGS SIM 3381; U.S. Geological Survey NWIS.</datacred>
+    <native>Python 3.11 or newer with simplekml, rasterio, geopandas, matplotlib and lxml on macOS.</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>CRMS balloon values come from crms_station_summary.csv (see that record for its accuracy notes). Basin land loss and gain totals are cell counts of the full 15 m SIM 3381 raster by basin (225 square meters per cell); the coastwide net of -4,654 square km is close to the -4,833 square km published in SIM 3381, the gap being expected because the layer holds persistent change only and 56 square km of loss falls outside the basin polygons. The ground overlay was resampled by nearest neighbour to about 90 m and shows four color classes only. NWIS site attributes are as reported by the USGS site service and were not analysed.</attraccr>
+    </attracc>
+    <logic>doc.kml parsed by lxml and valid against the OGC KML 2.2 and Google gx 2.2 XSDs; 138 point placemarks, none outside the study box; 10 basin polygon parts; 34 local image references (33 balloon charts and the overlay), none missing; 1 gx:Tour with 22 gx:FlyTo steps and 38 balloon updates whose targets all exist (outputs/tables/kml_validation_report.txt, scripts/08_validate_kml.py).</logic>
+    <complete>Shows the 33 analysed CRMS stations only (not the full CRMS network), the 105 active NWIS sites with instantaneous values in the box -91.30, 28.90 to -89.60, 30.60, all 10 CWPPRA coastal basins (simplified at 150 m), and the land change overlay for the bounding box of the Pontchartrain, Barataria and Terrebonne basins only. The last SIM 3381 class (2014 to 2015 new water area) is change not yet confirmed as persistent.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not assessed. CRMS placemarks are rounded to 0.01 degree (up to 641 m, median 451 m, from the CIMS station positions). NWIS positions are the USGS decimal latitude and longitude. Basin outlines are simplified at 150 m. The overlay is about 90 m per cell after reprojection from the 15 m UTM raster to WGS 84, so small features are under-drawn.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA), CRMS</origin>
+            <pubdate>20261018</pubdate>
+            <title>CRMS continuous hydrographic data, full table export CRMS_Continuous_Hydrographic.zip (hourly adjusted salinity, water temperature and water elevation to NAVD88)</title>
+            <geoform>tabular digital data</geoform>
+            <othercit>1.29 GB zip, 15.0 GB CSV, file dated 18 Oct 2026; downloaded 2026-10-23; 436 hydro stations with salinity, 2,484,522 station-days</othercit>
+            <onlink>https://cims.coastal.la.gov/FullTableExports.aspx</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20060217</begdate>
+              <enddate>20260831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CRMSHydro</srccitea>
+        <srccontr>Hourly records reduced to daily means for the trend and summary statistics.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA), CRMS</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Data Collection Stations (monitoring_stations.gdb)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://cims.coastal.louisiana.gov/viewer/metadata/zips/Data_Collection_Stations.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CIMSStations</srccitea>
+        <srccontr>CRMS hydro station locations and status (441 hydrographic station records).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA), CRMS</origin>
+            <pubdate>Unknown</pubdate>
+            <title>CRMS Sites (crms6298.shp)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://cims.coastal.louisiana.gov/viewer/metadata/zips/CRMS_Sites.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CIMSSites</srccitea>
+        <srccontr>Site vegetation type and parish.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Coastal Protection and Restoration Authority of Louisiana (CPRA)</origin>
+            <pubdate>Unknown</pubdate>
+            <title>CWPPRA hydrologic basin boundaries (BasinsCoastal.shp)</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://cims.coastal.louisiana.gov/viewer/metadata/zips/Basins.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CWPPRABasins</srccitea>
+        <srccontr>Basin assignment of stations and basin outlines (simplified at 150 m) in the KMZ.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Couvillion, B.R.</origin>
+            <origin>Beck, H.</origin>
+            <origin>Schoolmaster, D.</origin>
+            <origin>Fischer, M.</origin>
+            <pubdate>2017</pubdate>
+            <title>Land area change in coastal Louisiana (1932 to 2016), persistent land change raster sim_3381_persistent_change_spatial_data_092616.img</title>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Scientific Investigations Map</sername>
+              <issue>3381</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>ScienceBase item 5a67a8cde4b06e28e9c57150; 42,889 by 19,763 cells at 15 m</othercit>
+            <onlink>https://doi.org/10.3133/sim3381</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1932</begdate>
+              <enddate>2016</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>SIM3381</srccitea>
+        <srccontr>Persistent land loss and gain totals by basin and the land change ground overlay.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>National Water Information System (NWIS) site service with series catalog, active surface-water sites with instantaneous values, box -91.30, 28.90 to -89.60, 30.60</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://waterservices.usgs.gov/nwis/site/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20261023</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NWISSites</srccitea>
+        <srccontr>105 active USGS sites, their parameters and record dates.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Download (scripts/01_download_data.py): public keyless files fetched from CIMS, ScienceBase and USGS Water Services into the raw data folder (not committed).</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <srcused>CIMSStations</srcused>
+        <srcused>CIMSSites</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Daily means (scripts/02_build_crms_daily.py, 02_daily.awk): the 15 GB hourly CSV streamed from the zip and reduced to one row per station and day: mean adjusted salinity (ppt), adjusted water temperature, adjusted water elevation to datum (ft NAVD88), the number of hourly values and the geoid model. Only surface-water hydro stations (IDs ending -H01, -H02) kept; a daily mean needs at least 12 hourly values. Output: data/crms_selected_daily.csv.gz (selected stations).</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Station selection (scripts/03_select_stations.py): CRMS hydro station points (STATION_ID matching CRMSdddd-Hdd) projected to WGS 84 and joined to CWPPRA basins; vegetation type and parish joined from CRMS Sites. Lake Maurepas group = every station within 22 km of 30.255 N, 90.515 W with at least 8 years of record (21 stations). For each of the Pontchartrain, Barataria and Terrebonne basins, 4 key sites outside the Maurepas group picked evenly along latitude from stations with at least 3,650 days of daily salinity and data in 2025. Output: data/crms_stations_selected.csv; outputs/tables/crms_hydro_station_inventory.csv.</procdesc>
+        <srcused>CIMSStations</srcused>
+        <srcused>CIMSSites</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <srcused>CRMSHydro</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Trends and summary (scripts/04_salinity_trends.py): daily values through 2025-12-31 averaged to monthly means (a month needs 15 valid days). Seasonal Mann-Kendall test with seasonal Sen slope (pymannkendall.seasonal_test, period 12) on the full record and on 2013 to 2025; water-level trend only on the longest run of days on one geoid model (GEOID12B from 2013-10-01 at every station). Benjamini-Hochberg false discovery rate q across the 33 stations. Daily salinity percentiles, exceedance shares and the seasonal cycle (mean of monthly means by calendar month) computed per station. Table written with 4 significant digits (pandas float_format %.4g). Output: outputs/tables/crms_station_summary.csv; outputs/tables/crms_monthly_climatology.csv; outputs/tables/crms_group_trend_summary.csv.</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>GeoJSON export (scripts/06_maps.py): the selected station table converted to WGS 84 points from its lat and lon columns and written with the GDAL GeoJSON driver. Output: data/crms_stations_selected.geojson.</procdesc>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>NWIS sites (scripts/03_select_stations.py): active USGS surface-water sites with instantaneous values in the study box parsed from the RDB series catalog, tagged by reported parameters and joined to basins. Output: data/nwis_sites_study_area.csv; data/nwis_sites_study_area.geojson.</procdesc>
+        <srcused>NWISSites</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Land change by basin and overlay (scripts/05_land_loss_by_basin.py): the SIM 3381 raster (1 to 19 land lost in a mapping interval, 20 to 38 land gained, 0 no persistent change) read in strips, basin polygons rasterized on the same 15 m grid and cells counted by basin and class. For the overlay, the bounding box of the three study basins read at 1/6 resolution with nearest resampling, reprojected to EPSG:4326 and colored: classes 1 to 2 dark red, 3 to 7 red, 8 to 19 orange, 20 to 38 green, others transparent. Output: outputs/tables/land_change_by_basin.csv; outputs/tables/land_loss_by_basin_period.csv; landchange_overlay.png (inside the KMZ).</procdesc>
+        <srcused>SIM3381</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>KMZ build (scripts/07_build_kmz.py, simplekml): styled CRMS placemarks with HTML balloons and charts, NWIS placemarks, basin polygons with land change balloons, the ground overlay and a gx:Tour, packed into one KMZ. Output: outputs/kmz/louisiana_coastal_wetlands.kmz.</procdesc>
+        <srcused>CRMSHydro</srcused>
+        <srcused>NWISSites</srcused>
+        <srcused>CWPPRABasins</srcused>
+        <srcused>SIM3381</srcused>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Validation (scripts/08_validate_kml.py): lxml parse, XSD validation against OGC KML 2.2 plus the Google gx 2.2 extension, image, extent and tour target checks. Output: outputs/tables/kml_validation_report.txt.</procdesc>
+        <procdate>20261023</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>FGDC CSDGM metadata written from the README, the scripts, the validation report and direct inspection of doc.kml with lxml (placemark counts, coordinate extent, overlay LatLonBox).</procdesc>
+        <procdate>20261024</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>CRMS station ID and USGS site number (placemark names)</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>138</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>10</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.01</latres>
+        <longres>0.01</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CRMS hydro stations (analysed) placemarks</enttypl>
+        <enttypd>33 point placemarks in folders Lake Maurepas, Pontchartrain key site, Barataria key site and Terrebonne key site; name = station ID.</enttypd>
+        <enttypds>Anamika Dristi, this study (scripts/07_build_kmz.py)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>name</attrlabl>
+        <attrdef>CRMS station ID.</attrdef>
+        <attrdefs>CPRA CIMS</attrdefs>
+        <attrdomv>
+          <udom>Station IDs of the form CRMSdddd-Hdd</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Snippet</attrlabl>
+        <attrdef>Group and median daily salinity.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/07_build_kmz.py)</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>description</attrlabl>
+        <attrdef>HTML balloon with group, basin, vegetation type, days with salinity, median daily salinity, 10th to 90th percentile, days above 2 ppt, saltiest and freshest month, seasonal range, full-record and 2013 to 2025 salinity trends with FDR q, water-level trend, and a salinity chart image stored in the KMZ files folder. Values come from crms_station_summary.csv.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/07_build_kmz.py)</attrdefs>
+        <attrdomv>
+          <udom>HTML text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>USGS NWIS active sites placemarks</enttypl>
+        <enttypd>105 point placemarks; name = USGS site number.</enttypd>
+        <enttypds>Anamika Dristi, this study (scripts/07_build_kmz.py)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>name</attrlabl>
+        <attrdef>USGS site number.</attrdef>
+        <attrdefs>USGS NWIS</attrdefs>
+        <attrdomv>
+          <udom>USGS site numbers</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>description</attrlabl>
+        <attrdef>HTML balloon with station name, instantaneous-value parameters (gage height, discharge, specific conductance, salinity, water temperature, water level NAVD88), record begin and end dates, basin and a link to the USGS monitoring location page.</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/07_build_kmz.py)</attrdefs>
+        <attrdomv>
+          <udom>HTML text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>CWPPRA hydrologic basins polygons</enttypl>
+        <enttypd>10 basin MultiGeometry polygons; name = basin name.</enttypd>
+        <enttypds>Anamika Dristi, this study (scripts/07_build_kmz.py)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>name</attrlabl>
+        <attrdef>CWPPRA basin name.</attrdef>
+        <attrdefs>CPRA BasinsCoastal.shp</attrdefs>
+        <attrdomv>
+          <udom>Basin names</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>description</attrlabl>
+        <attrdef>Persistent land loss, gain and net change 1932 to 2016 in square km (study basins and others in the raster).</attrdef>
+        <attrdefs>Anamika Dristi, this study (scripts/05_land_loss_by_basin.py)</attrdefs>
+        <attrdomv>
+          <udom>HTML text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>landchange_overlay.png ground overlay</enttypl>
+        <enttypd>RGBA image draped by a GroundOverlay LatLonBox (north 30.499712, south 28.938674, east -88.735413, west -91.396678).</enttypd>
+        <enttypds>Anamika Dristi, this study (scripts/05_land_loss_by_basin.py)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RGB color</attrlabl>
+        <attrdef>Display color of the persistent land change class.</attrdef>
+        <attrdefs>Couvillion and others (2017), USGS SIM 3381, classes grouped by this study</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>122, 4, 3</edomv>
+            <edomvd>Dark red: land lost, SIM 3381 classes 1 to 2 (labelled 1932 to 1973 in the overlay description)</edomvd>
+            <edomvds>USGS SIM 3381</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>214, 64, 40</edomv>
+            <edomvd>Red: land lost, classes 3 to 7 (labelled 1973 to 1990)</edomvd>
+            <edomvds>USGS SIM 3381</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>247, 152, 90</edomv>
+            <edomvd>Orange: land lost, classes 8 to 19 (labelled 1990 to 2015)</edomvd>
+            <edomvds>USGS SIM 3381</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0, 131, 0</edomv>
+            <edomvd>Green: land gained, classes 20 to 38</edomvd>
+            <edomvds>USGS SIM 3381</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>transparent</edomv>
+            <edomvd>No persistent change or no data</edomvd>
+            <edomvds>USGS SIM 3381</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>KML 2.2 document with Google gx extensions. Placemark balloons are HTML. Interval labels follow the SIM 3381 raster attribute table; loss class 18 is labelled 2010-2014 in the file while the matching gain class is 2013-2014.</eaover>
+      <eadetcit>README.md and docs/GOOGLE_EARTH_GUIDE.md of the repository; Couvillion, B.R. and others (2017) USGS SIM 3381, https://doi.org/10.3133/sim3381.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anamika Dristi</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Houston</city>
+          <state>TX</state>
+          <postal>Not provided</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>Not provided (contact by email)</cntvoice>
+        <cntemail>anamikadristi@gmail.com</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>GitHub repository anamikadristi/louisiana-coastal-wetlands-google-earth, file outputs/kmz/louisiana_coastal_wetlands.kmz</resdesc>
+    <distliab>This dataset is an independent analysis of public data, provided as is, without warranty of any kind. The author is not responsible for any use of these data. Read the attribute accuracy and completeness sections before use.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>KMZ</formname>
+          <formvern>KML 2.2 (OGC 07-147r2) with Google gx 2.2 extension</formvern>
+          <formspec>Zipped doc.kml plus PNG images in files/</formspec>
+          <filedec>ZIP compression</filedec>
+          <transize>1.328</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://github.com/anamikadristi/louisiana-coastal-wetlands-google-earth/blob/main/outputs/kmz/louisiana_coastal_wetlands.kmz</networkr>
+              </networka>
+            </computer>
+            <accinstr>Download the file from the GitHub repository page (no account needed for public repositories).</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <techpreq>Google Earth Pro or Google Earth Web; QGIS or ArcGIS Pro (KML To Layer) also read KMZ. An internet connection loads the placemark icons.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20261024</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anamika Dristi</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Houston</city>
+          <state>TX</state>
+          <postal>Not provided</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>Not provided (contact by email)</cntvoice>
+        <cntemail>anamikadristi@gmail.com</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
